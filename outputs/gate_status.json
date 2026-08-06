@@ -1,0 +1,55 @@
+{
+  "test": "TEST_008_S1_PHYSICAL_CALIBRATION_VALIDITY",
+  "classification": "P3 for standard thermal SM-like Weyssenhoff realization under conservative EFT control",
+  "gates": [
+    {
+      "gate": "G0",
+      "status": "pass",
+      "result": "reversible natural-unit map preserves kappa and alpha relation"
+    },
+    {
+      "gate": "G1",
+      "status": "pass_conditional",
+      "result": "zero-chemical-potential ultrarelativistic SM thermal closure declared"
+    },
+    {
+      "gate": "G2",
+      "status": "pass",
+      "result": "Tc/TPl=0.8133906806414589; rho/rhoPl=15.372451912542129"
+    },
+    {
+      "gate": "G3",
+      "status": "fail_physical_control",
+      "result": "x=2 implies M/lPl=0.08811891192485782"
+    },
+    {
+      "gate": "G4",
+      "status": "fail",
+      "result": "no parametrically sub-Planckian overlap for SM thermal reference under conservative criterion"
+    },
+    {
+      "gate": "G5",
+      "status": "fail_naive_smoothing",
+      "result": "a nontrivial finite-thickness profile needs additional anisotropic stress, flux, or dynamics; sharp A_B is not recovered by naive smoothing alone"
+    },
+    {
+      "gate": "G6",
+      "status": "declared_not_solved",
+      "result": "mode coupling from anisotropic background; homogeneous grid does not test these modes"
+    },
+    {
+      "gate": "G7",
+      "status": "withheld",
+      "result": "numerical parameter map stopped by physical-validity gate"
+    }
+  ],
+  "scan_executed": false,
+  "scoped_ruling": "the dimensionless S1 equations remain mathematically valid reconnaissance; their standard thermal physical realization lacks controlled overlap",
+  "open_alternatives": [
+    "nonthermal matter closure",
+    "very large species model with revised gravitational cutoff",
+    "finite-thickness action",
+    "quantum-gravity completion",
+    "different EC spin matter"
+  ]
+}

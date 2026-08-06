@@ -1,0 +1,9 @@
+G0 pass reversible natural-unit map preserves kappa and alpha relation
+G1 pass_conditional zero-chemical-potential ultrarelativistic SM thermal closure declared
+G2 pass Tc/TPl=0.8133906806414589; rho/rhoPl=15.372451912542129
+G3 fail_physical_control x=2 implies M/lPl=0.08811891192485782
+G4 fail no parametrically sub-Planckian overlap for SM thermal reference under conservative criterion
+G5 fail_naive_smoothing a nontrivial finite-thickness profile needs additional anisotropic stress, flux, or dynamics; sharp A_B is not recovered by naive smoothing alone
+G6 declared_not_solved mode coupling from anisotropic background; homogeneous grid does not test these modes
+G7 withheld numerical parameter map stopped by physical-validity gate
+CLASSIFICATION P3 for standard thermal SM-like Weyssenhoff realization under conservative EFT control SCAN False

@@ -1,0 +1,6 @@
+{
+  "profile": "n=f(ell)n0; rho=alpha*n^2=mu*f^2; rho_eff=0",
+  "normal_conservation_residual": "2*mu*(w - 1)*f(ell)*Derivative(f(ell), ell)",
+  "closes_without_extra_stress": false,
+  "meaning": "a nontrivial finite-thickness profile needs additional anisotropic stress, flux, or dynamics; sharp A_B is not recovered by naive smoothing alone"
+}

@@ -1,0 +1,46 @@
+{
+  "rows": [
+    {
+      "g_f": 90,
+      "g_star": 106.75,
+      "T_over_TPl": 0.813390680641459,
+      "rho_over_rhoPl": 15.372451912542138
+    },
+    {
+      "g_f": 1000,
+      "g_star": 903.0,
+      "T_over_TPl": 0.21291273312535974,
+      "rho_over_rhoPl": 0.6104818839505624
+    },
+    {
+      "g_f": 10000,
+      "g_star": 8778.0,
+      "T_over_TPl": 0.06638279712964422,
+      "rho_over_rhoPl": 0.05607848332473371
+    },
+    {
+      "g_f": 100000,
+      "g_star": 87528.0,
+      "T_over_TPl": 0.020961929803722617,
+      "rho_over_rhoPl": 0.005559689593842195
+    },
+    {
+      "g_f": 1000000,
+      "g_star": 875028.0,
+      "T_over_TPl": 0.006627789930725467,
+      "rho_over_rhoPl": 0.0005554888941095395
+    }
+  ],
+  "conservative_criterion": {
+    "T_over_TPl_max": 0.1,
+    "rho_over_rhoPl_max": 0.01,
+    "status": "audit convention requiring parametrically sub-Planckian temperature and density"
+  },
+  "first_sample_meeting_both": {
+    "g_f": 100000,
+    "g_star": 87528.0,
+    "T_over_TPl": 0.020961929803722617,
+    "rho_over_rhoPl": 0.005559689593842195
+  },
+  "warning": "large species count changes gravitational cutoff/species scale and is a different microphysical model; this table does not establish validity"
+}

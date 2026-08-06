@@ -1,0 +1,4 @@
+THERMAL Tc/TPl 0.8133906806414589 rho/rhoPl 15.372451912542129 M/lPl 0.08811891192485782
+SPECIES first sampled sub-Planck audit {'g_f': 100000, 'g_star': 87528.0, 'T_over_TPl': 0.020961929803722617, 'rho_over_rhoPl': 0.005559689593842195}
+THICKNESS residual 2*mu*(w - 1)*f(ell)*Derivative(f(ell), ell)
+PERTURBATIONS declared; stability untested
